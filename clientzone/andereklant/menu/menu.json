@@ -1,7 +1,7 @@
 {
     "identification": [
-        {"menutitle": "Tertúlias Portimaõ"}
-        ,{"restaurantname": "Tertúlias"}
+        {"menutitle": "Ander restaurant"}
+        ,{"restaurantname": "Andere toko"}
         ,{"restauranttype_en": "Bubble tea<BR>"}
         ,{"restauranttype_en": "Coffee<BR>"}
         ,{"restauranttype_en": "Local and VietNam food"}
@@ -48,31 +48,7 @@
                   "price": "€ 9,20",
                   "group": "local"
               }
-              ,
-              {
-                  "name_pt": "ROBALO",
-                  "name_en": "SEABASS",
-                  "price": "€ 10,30",
-                  "group": "Local"
-              }
-              ,
-              {
-                  "name_pt": "DOURADA",
-                  "name_en": "SEABREAM",
-                  "price": "€ 10,30",
-                  "image_location": "./",
-                  "image": "dourada.png",
-                  "group": "Local"
-              }
-              ,
-              {
-                  "name_pt": "SALMAO",
-                  "name_en": "SALMON",
-                  "price": "€ 12,50",
-                  "image_location": "./",
-                  "image": "salmao.jpg",
-                  "group": "Local"
-              }
+             
               ,
               {
                   "name_pt": "SALADA DE ATUM",
@@ -89,102 +65,7 @@
                   "price": "€ 10,80",
                   "group": "Local"
               }
-              ,
-              {
-                  "name": "FRANCESINHA",
-                  "price": "€ 10,80",
-                  "image_location": "./",
-                  "image": "franshinha.jpg",
-                  "group": "Local"
-              }
-              ,
-              {
-                  "name_pt": "BIFE DE FRANGO",
-                  "name_en": "CHICKEN STEAK",
-                  "price": "€ 8,60",
-                  "group": "Local"
-              }
-              ,
-              {
-                  "name_pt": "PLUMAS DE PORCO PRETO",
-                  "name_en": "BLACK PIG PLUMAS",
-                  "price": "€ 10,30",
-                  "group": "Local"
-              }
-              ,
-              {
-                  "name_pt": "SECRETOS DE PORCO PRETO",
-                  "name_en": "BLACK PIG SECRETOS",
-                  "price": "€ 10,30",
-                  "group": "Local"
-              }
-              ,
-              {
-                  "name_pt": "LAHARTINHOS PORCO PRETO",
-                  "name_en": "BLACK PIG LAGARTINHO",
-                  "price": "€ 11,30",
-                  "group": "Local"
-              }
-              ,
-              {
-                  "name_pt": "MAMINHA (VACA)",
-                  "name_en": "MAMINHA STEAK",
-                  "image_location": "./",
-                  "image": "maminha.jpg",
-                  "price": "€ 10,80",
-                  "group": "Local"
-              }
-                ,
-              {
-                  "name_pt": "BIFE DE VACA",
-                  "name_en": "GRILLED BEEF",
-                  "price": "€ 10,80",
-                  "group": "Local"
-              } ,
-              {
-                  "name_pt": "PICANHA",
-                  "name_en": "FILET STEAK",
-                  "price": "€ 12,50",
-                  "group": "Local"
-              },
-              {
-                  "name_pt": "BITOQUE DE VACA",
-                  "name_en": "BEEF STEAK",
-                  "price": "€ 8,90",
-                  "group": "Local"
-              },
-              {
-                  "name_pt": "BITOQUE DE FRANGO",
-                  "name_en": "CHICKEN STEAK",
-                  "price": "€ 8,60",
-                  "group": "Local"
-              },
-              {
-                  "name_pt": "HAMBURGUER NO PRATO",
-                  "name_en": "BURGER ON PLATE",
-                  "image_location": "./",
-                  "image": "hamburger.jpg",
-                  "price": "€ 7,20",
-                  "group": "Local"
-              },
-              {
-                  "name_pt": "OMELETE SIMPLES",
-                  "name_en": "PLAIN OMELETTE",
-                  "price": "€ 7,20",
-                  "group": "Local"
-              },
-              {
-                  "name_pt": "OMELETE MISTA",
-                  "name_en": "HAM AND CHEESE OMELETTE",
-                  "price": "€ 7,60",
-                  "group": "Local"
-              },
-              {
-                  "name_pt": "SALADA FRANGO",
-                  "name_en": "CHICKEN SALAD",
-                  "price": "€ 7,50",
-                  "group": "Local"
-              }
+             
 
           ]
   
