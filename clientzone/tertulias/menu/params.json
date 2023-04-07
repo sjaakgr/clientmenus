@@ -3,10 +3,10 @@
     "imageslocationx": "./menu/images/",
     "menulocation2": "https://webkamer.nl/activefiles/corsextract.php?file=menu.json",
     "menulocationx": "./menu/",
-    "menulocation": "./clientmenus/clientzone/tertulias/menu/",
+    "menulocation": "./clientzone/tertulias/menu/",
 
     "menufile": "menu.json",
-    "imageslocation": "./clientmenus/clientzone/tertulias/menu/images/"
+    "imageslocation": "./clientzone/tertulias/menu/images/"
 
 }
 
