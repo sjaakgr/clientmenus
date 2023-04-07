@@ -1,18 +1,11 @@
 {
     "imageslocation2": "https://webkamer.nl/activefiles/corsextract.php?type=img&file=",
-    "imageslocation": "./menu/images/",
+    "imageslocationx": "./menu/images/",
     "menulocation2": "https://webkamer.nl/activefiles/corsextract.php?file=menu.json",
-    "menulocation": "./menu/",
-    "menufile": "menu.json"
-}
+    "menulocationx": "./menu/",
+    "menulocation": "./clientzone/andereklant/menu/",
 
+    "menufile": "menu.json",
+    "imageslocation": "./clientzone/andereklant/menu/images/"
 
-
-
-
-
-  
-
-
-  
-      
+}      
