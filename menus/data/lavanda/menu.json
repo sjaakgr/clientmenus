@@ -1,4 +1,33 @@
 {
+    
+    "languages": 
+   
+    [
+       {
+       "language": "english",
+       "languagecode": "en",
+       "image_location": "https://cdn.countryflags.com/thumbs/",
+       "image": "united-kingdom/flag-round-250.png",
+       "default": "y"
+       }
+   
+   ,
+       {
+       "language": "portuguese",
+       "languagecode": "pt",
+       "image_location": "https://cdn.countryflags.com/thumbs/",
+       "image": "portugal/flag-round-250.png"
+       }
+   ,
+       {
+        "language": "dutch",
+        "languagecode": "nl",
+        "image_location": "https://cdn.countryflags.com/thumbs/",
+       "image": "netherlands/flag-round-250.png"
+       }
+   ]  
+
+    ,
     "identification": [
         {"menutitle": "Lavanda"}
         ,{"restaurantname": "Lavanda Nails"}
@@ -106,6 +135,8 @@
 
  ]
 
+
+ 
 }
 
 
