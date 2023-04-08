@@ -3,9 +3,13 @@
     "imageslocationx": "./menu/images/",
     "menulocation2": "https://webkamer.nl/activefiles/corsextract.php?file=menu.json",
     "menulocationx": "./menu/",
-    "menulocation": "./clientzone/andereklant/menu/",
+    "menulocation4": "./clientzone/andereklant/menu/",
 
-    "menufile": "menu.json",
-    "imageslocation": "./clientzone/andereklant/menu/images/"
+    "imageslocation4": "./clientzone/andereklant/menu/images/",
 
-}      
+    "menulocation": "./menus/data/",
+    "imageslocation": "./menus/images/",
+    "menufile": "menu.json"
+
+
+}
