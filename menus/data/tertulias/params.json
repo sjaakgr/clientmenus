@@ -1,0 +1,22 @@
+{
+    "imageslocation2": "https://webkamer.nl/activefiles/corsextract.php?type=img&file=",
+    "imageslocationx": "./menu/images/",
+    "menulocation2": "https://webkamer.nl/activefiles/corsextract.php?file=menu.json",
+    "menulocationx": "./menu/",
+    "menulocation": "./clientzone/tertulias/menu/",
+
+    "menufile": "menu.json",
+    "imageslocation": "./clientzone/tertulias/menu/images/"
+
+}
+
+
+
+
+
+
+  
+
+
+  
+      
