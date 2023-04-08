@@ -139,6 +139,12 @@ $(function()
                     var section = document.getElementById("showcase");
                     section.style.backgroundImage = "url('./menus/images/" + client + "/" + "banner.jpg')";
 
+                    $.each(data.languages, function(index, langitem) 
+                    {
+                        alert (getjsonitem(langitem, "language", lang));
+                       
+                    });  
+
                 // Populate the restaurant info with the data from the JSON file
                     $.each(data.identification, function(index, identitem) 
                     {
