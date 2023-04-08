@@ -1,0 +1,112 @@
+{
+    "identification": [
+        {"menutitle": "Lavanda"}
+        ,{"restaurantname": "Lavanda Nails"}
+        ,{"restauranttype_en": "Gel nails<BR>"}
+        ,{"restauranttype_en": "Manicure<BR>"}
+        ,{"restauranttype_en": "Pedicure"}
+        ,{"restauranttype_nl": "Gelnagels<BR>"}
+        ,{"restauranttype_nl": "Manicure<BR>"}
+        ,{"restauranttype_nl": "Pedicure"}
+   ]
+   ,"about": [
+    {"about_en": "About us"}
+   ,{"about_nl": "Overons"}
+   
+   ,{"description_header_en": "English ... Tasty blend of Portuguese and Vietnamese quality food and atmosphere "}
+   ,{"description_header_nl": "Portuguese ... Saborosa mistura de comida e atmosfera de qualidade Portuguesa e Vietnamita "}
+   
+   ,{"description_en": "We make nails. "}
+   ,{"description_en": "We do manicure. "}
+   ,{"description_en": "We do pedicure. "}
+
+   ,{"description_nl": "Wij maken nagels. "}
+   ,{"description_nl": "Wij doen manicure. "}
+   ,{"description_nl": "Wij doen pedicure. "}
+   ]
+  ,
+
+  "gangen": 
+ 
+  [
+      {
+          "course": "gelnails",
+          "coursetag_en": "Gel Nails",
+          "coursetag_nl": "Gelnagels",
+
+          "dish": 
+          
+          [
+              {
+                  "name_nl": "Blauw en roze",
+                  "name_en": "Blue and pink",
+                  "price": "€ 35,00",
+                  "image_location": "./",
+                  "image": "blauwenroze.jpg",
+                  "group": "gel"
+              }
+             
+              ,
+              {
+                  "name_nl": "Frans rood",
+                  "name_en": "French red",
+                  "price": "€ 37,50",
+                  "image_location": "./",
+                  "image": "frenchred.jpg",
+                  "group": "gel"
+              }
+             
+
+          ]
+  
+      }
+
+      ,
+      {
+        "course": "specialgelnails",
+        "coursetag_en": "Gel Nails specials",
+        "coursetag_nl": "Gelnagels speciaal",
+
+        "dish": 
+        
+        [
+            {
+                "name_nl": "Roze met gouden details",
+                "name_en": "Pink with gold details",
+                "price": "€ 32,50",
+                "image_location": "./",
+                "image": "rozegoudslinger.jpg",
+                "group": "gelspecials"
+            }
+           
+            ,
+            {
+                "name_nl": "Zwart en goud",
+                "name_en": "Black and gold",
+                "price": "€ 42,50",
+                "image_location": "./",
+                "image": "zwartgous.jpg",
+                "group": "gelspecials"
+            }
+           
+
+        ]
+
+    }
+      
+
+ ]
+
+}
+
+
+
+
+
+
+
+  
+
+
+  
+      
