@@ -46,6 +46,16 @@ body {
   transition: background 0.3s ease-in-out;
 }
 
+
+
+/* ............ Sjaak toegevoegd ............ */
+.flag {
+  cursor: pointer;
+}
+/* ............ Sjaak toegevoegd ............ */
+
+
+
 /* ............/navbar/............ *
 
 /* desktop mode............/// */
