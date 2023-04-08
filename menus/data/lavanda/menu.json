@@ -11,7 +11,7 @@
    ]
    ,"about": [
     {"about_en": "About us"}
-   ,{"about_pt": "Overons"}
+   ,{"about_pt": "Over ons"}
    
    ,{"description_header_en": "English ... Magic nailart from the heart "}
    ,{"description_header_pt": "Magic nailart met passie  "}
@@ -63,7 +63,7 @@
 
       ,
       {
-        "course": "specialgelnails",
+        "course": "specialgel",
         "coursetag_en": "Gel Nails specials",
         "coursetag_pt": "Gelnagels speciaal",
 
@@ -75,7 +75,7 @@
                 "name_en": "Pink with gold details",
                 "price": "€ 32,50",
                 "image_location": "./",
-                "image": "rozegoudslinger.jpg",
+                "image": "rosegoudslinger.jpg",
                 "group": "gelspecials"
             }
            
@@ -85,7 +85,7 @@
                 "name_en": "Black and gold",
                 "price": "€ 42,50",
                 "image_location": "./",
-                "image": "zwartgous.jpg",
+                "image": "zwartgoud.jpg",
                 "group": "gelspecials"
             }
            
