@@ -25,7 +25,6 @@
 <!-- -------------------------------------->    
 <body>
     
-
 <!--       ----------------------------- -->
 <!--       ----------- Paginakop ------- -->
 <!--       ----------------------------- -->    
@@ -46,6 +45,7 @@
         <center>
             <a href="#lijst" class="btn btn-primary">Menu</a>
        </center>
+
     </section>
     
     <section id="about">
@@ -135,6 +135,12 @@ $(function()
                 // -- The menu lists                          
                     $('#lijst .coursecluster').empty();
                 
+                // -- The banner picture                          
+                    $('#showcase .bannerstart').empty();
+
+                    var section = document.getElementById("showcase");
+                    section.style.backgroundImage = "url('../menus/images/" + client + "/" + "banner.jpg')";
+
                 // Populate the restaurant info with the data from the JSON file
                     $.each(data.identification, function(index, identitem) 
                     {
