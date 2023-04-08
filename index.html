@@ -30,9 +30,10 @@
 <!--       ----------------------------- -->    
     <section class="showcase-area" id="showcase"  style="background-image: url('./menus/images/andereklant/banner.jpg');">
 
-        <p style="text-align:right;">
+        <p style="text-align:right;" id="languagebuttons">
             <img src="https://cdn.countryflags.com/thumbs/united-kingdom/flag-round-250.png" alt="English" class="flag" data-lang="en" width="20" height="auto">
             <img src="https://cdn.countryflags.com/thumbs/portugal/flag-round-250.png" alt="Português" class="flag" data-lang="pt" width="20" height="auto">
+            <ul class="buttonrow"></ul>     
         </p>
 
         <div class="showcase-container">
@@ -142,6 +143,20 @@ $(function()
                     $.each(data.languages, function(index, langitem) 
                     {
                     //    alert (getjsonitem(langitem, "language", lang) + '/' + getjsonitem(langitem, "languagecode", lang)+ '/' + getjsonitem(langitem, "image_location", lang)+ '/' + getjsonitem(langitem, "image", lang)+ '/' + getjsonitem(langitem, "default", lang));
+                   var lrow =  '<img src="' + 
+                   getjsonitem(langitem, "image_location", lang) +
+                   getjsonitem(langitem, "image", lang) +
+                   '" alt="' +
+                   getjsonitem(langitem, "language", lang) +
+                   '" class="flag" data-lang="' +
+                   getjsonitem(langitem, "languagecode", lang) +
+                   '" width="20" height="auto">';
+
+                   $('#showcase .buttonrow').append(lrow); 
+
+                   
+            
+                
                     });  
 
                 // Populate the restaurant info with the data from the JSON file
