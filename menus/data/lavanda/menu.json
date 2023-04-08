@@ -5,24 +5,24 @@
         ,{"restauranttype_en": "Gel nails<BR>"}
         ,{"restauranttype_en": "Manicure<BR>"}
         ,{"restauranttype_en": "Pedicure"}
-        ,{"restauranttype_nl": "Gelnagels<BR>"}
-        ,{"restauranttype_nl": "Manicure<BR>"}
-        ,{"restauranttype_nl": "Pedicure"}
+        ,{"restauranttype_pt": "Gelnagels<BR>"}
+        ,{"restauranttype_pt": "Manicure<BR>"}
+        ,{"restauranttype_pt": "Pedicure"}
    ]
    ,"about": [
     {"about_en": "About us"}
-   ,{"about_nl": "Overons"}
+   ,{"about_pt": "Overons"}
    
-   ,{"description_header_en": "English ... Tasty blend of Portuguese and Vietnamese quality food and atmosphere "}
-   ,{"description_header_nl": "Portuguese ... Saborosa mistura de comida e atmosfera de qualidade Portuguesa e Vietnamita "}
+   ,{"description_header_en": "English ... Magic nailart from the heart "}
+   ,{"description_header_pt": "Magic nailart met passie  "}
    
    ,{"description_en": "We make nails. "}
    ,{"description_en": "We do manicure. "}
    ,{"description_en": "We do pedicure. "}
 
-   ,{"description_nl": "Wij maken nagels. "}
-   ,{"description_nl": "Wij doen manicure. "}
-   ,{"description_nl": "Wij doen pedicure. "}
+   ,{"description_pt": "Wij maken nagels. "}
+   ,{"description_pt": "Wij doen manicure. "}
+   ,{"description_pt": "Wij doen pedicure. "}
    ]
   ,
 
@@ -32,13 +32,13 @@
       {
           "course": "gelnails",
           "coursetag_en": "Gel Nails",
-          "coursetag_nl": "Gelnagels",
+          "coursetag_pt": "Gelnagels",
 
           "dish": 
           
           [
               {
-                  "name_nl": "Blauw en roze",
+                  "name_pt": "Blauw en roze",
                   "name_en": "Blue and pink",
                   "price": "€ 35,00",
                   "image_location": "./",
@@ -48,7 +48,7 @@
              
               ,
               {
-                  "name_nl": "Frans rood",
+                  "name_pt": "Frans rood",
                   "name_en": "French red",
                   "price": "€ 37,50",
                   "image_location": "./",
@@ -65,13 +65,13 @@
       {
         "course": "specialgelnails",
         "coursetag_en": "Gel Nails specials",
-        "coursetag_nl": "Gelnagels speciaal",
+        "coursetag_pt": "Gelnagels speciaal",
 
         "dish": 
         
         [
             {
-                "name_nl": "Roze met gouden details",
+                "name_pt": "Roze met gouden details",
                 "name_en": "Pink with gold details",
                 "price": "€ 32,50",
                 "image_location": "./",
@@ -81,7 +81,7 @@
            
             ,
             {
-                "name_nl": "Zwart en goud",
+                "name_pt": "Zwart en goud",
                 "name_en": "Black and gold",
                 "price": "€ 42,50",
                 "image_location": "./",
