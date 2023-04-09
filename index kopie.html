@@ -90,10 +90,25 @@ $(function()
         // Kickoff Mainline //
         // ---------------- //
            
+            loadMenu('nl'); // Load the English menu by default   
+                
+            $('.flag').click(function()     // Handle click events on the language selector flags
+                {
+                    var lang = $(this).data('lang');
+                    loadMenu(lang);
+                }
+            );
+    
+        // -------- //
+        // Mainline //
+        // -------- //
 
-
-
-                // $.getJSON('./menu/params' + '.json', function(params) // Process inhoud van installation parameters json-file
+            // ------------------------------------------------------------ //
+            // F: Load the menu from a JSON file for the specified language //
+            // ------------------------------------------------------------ //
+            function loadMenu(lang) 
+            {
+             // $.getJSON('./menu/params' + '.json', function(params) // Process inhoud van installation parameters json-file
                 //        https://sjaakgr.github.io/clientmenus/clientzone/tertulias/menu/params.json
                 $.getJSON('./menus/data/' + client + '/params.json', function(params) // Process inhoud van installation parameters json-file
                 {  
@@ -144,58 +159,8 @@ $(function()
 
                 });  
 */
-    
+                  
 
-
-loadMenu('nl'); // Load the English menu by default   
-                
-                $('.flag').click(function()     // Handle click events on the language selector flags
-                    {
-                        var lang = $(this).data('lang');
-                        loadMenu(lang, params, data);
-                    }
-                );
-
-
-
-}); // einde verwerking json file menu
-
-});  // einde verwerking json file params
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-        // -------- //
-        // Mainline //
-        // -------- //
-
-            // ------------------------------------------------------------ //
-            // F: Load the menu from a JSON file for the specified language //
-            // ------------------------------------------------------------ //
-            function loadMenu(lang, params,data) 
-            {
-             // $.getJSON('./menu/params' + '.json', function(params) // Process inhoud van installation parameters json-file
-                //        https://sjaakgr.github.io/clientmenus/clientzone/tertulias/menu/params.json
                    
                  
 
@@ -234,6 +199,10 @@ loadMenu('nl'); // Load the English menu by default
                     });  
                     
 
+
+                }); // einde verwerking json file
+
+            });  
 
             }  // Einde functie loadmenu
 
