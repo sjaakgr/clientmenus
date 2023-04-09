@@ -34,24 +34,24 @@
         ,{"restauranttype_en": "Gel nails<BR>"}
         ,{"restauranttype_en": "Manicure<BR>"}
         ,{"restauranttype_en": "Pedicure"}
-        ,{"restauranttype_pt": "Gelnagels<BR>"}
-        ,{"restauranttype_pt": "Manicure<BR>"}
-        ,{"restauranttype_pt": "Pedicure"}
+        ,{"restauranttype_nl": "Gelnagels<BR>"}
+        ,{"restauranttype_nl": "Manicure<BR>"}
+        ,{"restauranttype_nl": "Pedicure"}
    ]
    ,"about": [
     {"about_en": "About us"}
-   ,{"about_pt": "Over ons"}
+   ,{"about_nl": "Over ons"}
    
    ,{"description_header_en": "Magic nailart from the heart "}
-   ,{"description_header_pt": "Magic nailart met passie  "}
+   ,{"description_header_nl": "Magic nailart met passie  "}
    
    ,{"description_en": "We make nails. "}
    ,{"description_en": "We do manicure. "}
    ,{"description_en": "We do pedicure. "}
 
-   ,{"description_pt": "Wij maken nagels. "}
-   ,{"description_pt": "Wij doen manicure. "}
-   ,{"description_pt": "Wij doen pedicure. "}
+   ,{"description_nl": "Wij maken nagels. "}
+   ,{"description_nl": "Wij doen manicure. "}
+   ,{"description_nl": "Wij doen pedicure. "}
    ]
   ,
 
@@ -61,15 +61,15 @@
       {
           "course": "gelnails",
           "coursetag_en": "Gel Nails",
-          "coursetag_pt": "Gelnagels",
+          "coursetag_nl": "Gelnagels",
 
           "dish": 
           
           [
               {
-                  "name_pt": "Blauw en roze",
+                  "name_nl": "Blauw en roze",
                   "name_en": "Blue and pink",
-                  "description_pt": "Mooi afgewerkte blauw en roze gelnagels. Uiteraard zijn alle kleurvariaties mogelijk. ",
+                  "description_nl": "Mooi afgewerkte blauw en roze gelnagels. Uiteraard zijn alle kleurvariaties mogelijk. ",
                   "description_en": "Nicely finished gel nails in blue and pink. All color varaitions are possible. ",
                   "price": "€ 35,00",
                   "image_location": "./",
@@ -79,9 +79,9 @@
              
               ,
               {
-                  "name_pt": "Frans rood",
+                  "name_nl": "Frans rood",
                   "name_en": "French red",
-                  "description_pt": "Mooi afgewerkte rood in franse stijl. Uiteraard zijn alle kleurvariaties mogelijk. ",
+                  "description_nl": "Mooi afgewerkte rood in franse stijl. Uiteraard zijn alle kleurvariaties mogelijk. ",
                   "description_en": "Nicely finished red french finish. All color varaitions are possible. ",
                   "price": "€ 37,50",
                   "image_location": "./",
@@ -98,15 +98,15 @@
       {
         "course": "specialgel",
         "coursetag_en": "Gel Nails specials",
-        "coursetag_pt": "Gelnagels speciaal",
+        "coursetag_nl": "Gelnagels speciaal",
 
         "dish": 
         
         [
             {
-                "name_pt": "Roze met gouden details",
+                "name_nl": "Roze met gouden details",
                 "name_en": "Pink with gold details",
-                "description_pt": "Roze en goud gelnagels. Uiteraard zijn alle kleurvariaties mogelijk. ",
+                "description_nl": "Roze en goud gelnagels. Uiteraard zijn alle kleurvariaties mogelijk. ",
                 "description_en": "Pink and gold gel nails. All color varaitions are possible. ",
 
                 "price": "€ 32,50",
@@ -117,9 +117,9 @@
            
             ,
             {
-                "name_pt": "Zwart en goud",
+                "name_nl": "Zwart en goud",
                 "name_en": "Black and gold",
-                "description_pt": "Stijlvol zwart met goud. Uiteraard zijn alle kleurvariaties mogelijk. ",
+                "description_nl": "Stijlvol zwart met goud. Uiteraard zijn alle kleurvariaties mogelijk. ",
                 "description_en": "Stylish black and gold gel. All color varaitions are possible. ",
                 "price": "€ 42,50",
                 "image_location": "./",
