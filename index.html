@@ -125,25 +125,24 @@ $(function()
                     section.style.backgroundImage = "url('./menus/images/" + client + "/" + "banner.jpg')";
 
 
-            
+                // -- Language buttons                          
                     $('#languagebuttons').empty(); 
-
                     $.each(data.languages, function(index, langitem) 
                     {
-                    //    alert (getjsonitem(langitem, "language", lang) + '/' + getjsonitem(langitem, "languagecode", lang)+ '/' + getjsonitem(langitem, "image_location", lang)+ '/' + getjsonitem(langitem, "image", lang)+ '/' + getjsonitem(langitem, "default", lang));
-                   var lrow =  '<img src="' + 
-                   getjsonitem(langitem, "image_location", lang) +
-                   getjsonitem(langitem, "image", lang) +
-                   '" alt="' +
-                   getjsonitem(langitem, "language", lang) +
-                   '" class="flag" data-lang="' +
-                   getjsonitem(langitem, "languagecode", lang) +
-                   '" width="20" height="auto">';
+                        var l_il = getjsonitem(langitem, "image_location", lang);
+                        var l_i  = getjsonitem(langitem, "image", lang);
+                        var l_l  = getjsonitem(langitem, "language", lang);
+                        var l_lc = getjsonitem(langitem, "languagecode", lang);
+                        var l_d  = getjsonitem(langitem, "default", lang);
 
-                   $('#languagebuttons').append(lrow); 
+                        var lrow =  '<img src="' + l_il + l_i + '" alt="' + l_l + 
+                                    '" class="flag" data-lang="' + l_lc + 
+                                    '" width="20" height="auto">';
 
-                   if (getjsonitem(langitem, "default", lang) == 'y') {var lang = getjsonitem(langitem, "languagecode", lang);}
+                        $('#languagebuttons').append(lrow); 
 
+                        if (l_d == 'y') 
+                            {var lang = l_lc;}
                 });  
 
     
