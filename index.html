@@ -140,6 +140,9 @@ $(function()
                     var section = document.getElementById("showcase");
                     section.style.backgroundImage = "url('./menus/images/" + client + "/" + "banner.jpg')";
 
+
+                    $('#showcase .buttonrow').aempty(); 
+
                     $.each(data.languages, function(index, langitem) 
                     {
                     //    alert (getjsonitem(langitem, "language", lang) + '/' + getjsonitem(langitem, "languagecode", lang)+ '/' + getjsonitem(langitem, "image_location", lang)+ '/' + getjsonitem(langitem, "image", lang)+ '/' + getjsonitem(langitem, "default", lang));
