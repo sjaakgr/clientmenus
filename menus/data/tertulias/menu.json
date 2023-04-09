@@ -1,5 +1,25 @@
 {
-    "identification": [
+    "languages": 
+   
+    [
+       {
+       "language": "english",
+       "languagecode": "en",
+       "image_location": "https://cdn.countryflags.com/thumbs/",
+       "image": "united-kingdom/flag-round-250.png",
+       "default": "y"
+       }
+   
+   ,
+       {
+       "language": "portuguese",
+       "languagecode": "pt",
+       "image_location": "https://cdn.countryflags.com/thumbs/",
+       "image": "portugal/flag-round-250.png"
+       }
+   ]  
+
+    ,"identification": [
         {"menutitle": "Tertúlias Portimaõ"}
         ,{"restaurantname": "Tertúlias"}
         ,{"restauranttype_en": "Bubble tea<BR>"}
