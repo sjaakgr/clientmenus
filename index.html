@@ -32,7 +32,7 @@
 
         <p style="text-align:right;" id="languagebuttons">
             <img src="https://cdn.countryflags.com/thumbs/united-kingdom/flag-round-250.png" alt="English" class="flag" data-lang="en" width="20" height="auto">
-            <img src="https://cdn.countryflags.com/thumbs/portugal/flag-round-250.png" alt="Português" class="flag" data-lang="pt" width="20" height="auto">
+            <img src="https://cdn.countryflags.com/thumbs/netherlands/flag-round-250.png" alt="Dutch" class="flag" data-lang="nl" width="20" height="auto">
         </p>
 
         <div class="showcase-container">
@@ -90,28 +90,7 @@ $(function()
         // Kickoff Mainline //
         // ---------------- //
            
-            loadMenu('pt'); // Load the English menu by default   
-          
- // $('#showcase .buttonrow').empty(); 
-                    //$('#languagebuttons').empty(); 
-
-                    $.each(data.languages, function(index, langitem) 
-                    {
-                    //    alert (getjsonitem(langitem, "language", lang) + '/' + getjsonitem(langitem, "languagecode", lang)+ '/' + getjsonitem(langitem, "image_location", lang)+ '/' + getjsonitem(langitem, "image", lang)+ '/' + getjsonitem(langitem, "default", lang));
-                   var lrow =  '<img src="' + 
-                   getjsonitem(langitem, "image_location", lang) +
-                   getjsonitem(langitem, "image", lang) +
-                   '" alt="' +
-                   getjsonitem(langitem, "language", lang) +
-                   '" class="flag" data-lang="' +
-                   getjsonitem(langitem, "languagecode", lang) +
-                   '" width="20" height="auto">';
-
-                 //  $('#showcase .buttonrow').append(lrow); 
-                   $('#languagebuttons').append(lrow); 
-
-                });  
-
+            loadMenu('nl'); // Load the English menu by default   
                 
             $('.flag').click(function()     // Handle click events on the language selector flags
                 {
@@ -161,11 +140,28 @@ $(function()
                     section.style.backgroundImage = "url('./menus/images/" + client + "/" + "banner.jpg')";
 
 
+            /*
+                    //$('#languagebuttons').empty(); 
+
+                    $.each(data.languages, function(index, langitem) 
+                    {
+                    //    alert (getjsonitem(langitem, "language", lang) + '/' + getjsonitem(langitem, "languagecode", lang)+ '/' + getjsonitem(langitem, "image_location", lang)+ '/' + getjsonitem(langitem, "image", lang)+ '/' + getjsonitem(langitem, "default", lang));
+                   var lrow =  '<img src="' + 
+                   getjsonitem(langitem, "image_location", lang) +
+                   getjsonitem(langitem, "image", lang) +
+                   '" alt="' +
+                   getjsonitem(langitem, "language", lang) +
+                   '" class="flag" data-lang="' +
+                   getjsonitem(langitem, "languagecode", lang) +
+                   '" width="20" height="auto">';
+
+                   $('#languagebuttons').append(lrow); 
+
+                });  
+*/
                   
 
                    
-            
-                
                  
 
                 // Populate the restaurant info with the data from the JSON file
