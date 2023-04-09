@@ -87,7 +87,7 @@
     // Kickoff Mainline //
     // ---------------- //
 
-        var lang = 'en';
+        var lang = '';
 
         //        https://sjaakgr.github.io/clientmenus/clientzone/tertulias/menu/params.json
         $.getJSON('./menus/data/' + client + '/params.json', function(params) // Process inhoud van installation parameters json-file
@@ -120,19 +120,6 @@
                 $('#languagebuttons').empty(); 
                 $.each(data.languages, function(index, langitem) 
                 {
-                    /*
-                    var l_il = getjsonitem(langitem, "image_location", lang);
-                    var l_i  = getjsonitem(langitem, "image", lang);
-                    var l_l  = getjsonitem(langitem, "language", lang);
-                    var l_lc = getjsonitem(langitem, "languagecode", lang);
-                    var l_d  = getjsonitem(langitem, "default", lang);
-
-
-                    var lrow =  '<img src="' + l_il + l_i + '" alt="' + l_l + 
-                            '" class="flag" data-lang="' + l_lc + 
-                            '" width="20" height="auto">';
-
-                    */
                     var lrow =  '<img src="' + langitem.image_location + langitem.image + '" alt="' + 
                                 langitem.languagel + '" class="flag" data-lang="' + 
                                 langitem.languagecode + 
@@ -140,7 +127,7 @@
 
                     $('#languagebuttons').append(lrow); 
 
-                    if (langitem.default == 'y') 
+                    if ( (langitem.default == 'y') || (lang == "") ) // Neem de default language of de eerste
                         { lang = langitem.languagecode;}
                 });  
 
@@ -280,12 +267,12 @@
                 // var l = 'https://webkamer.nl/activefiles/corsextract.php?type=img&file=';
                 var l = il;
 
-                var p1 = '<div class="food-menu-item" align=center>' ;
-                var p2 = ''; 
+                var p1 = ''; 
                 if (i!="")
-                    { var p2 = '  <div class="food-img" align=center> '
+                    { var p1 = '  <div class="food-img" align=center> '
                                 + '    <img  src="' + l + client + '/' + i + '" alt="' + n + '" /> '
                                 + '  </div> ' ;}
+                var p2 = '<div class="food-menu-item" align=center>' ;
                 var p3 = '  <div class="food-description" align=center> ';
                 var p4 = '';
                 var p5 = '';
@@ -295,7 +282,7 @@
                 if (p!="")  {var p6 =  '      <p class="food-price">' + p + '</p> ';}
                 var p7 = '  <BR></div> ' ;
                 var p8 = '</div> ' ;
-                $(pagetag).append(p2 + p1 + p3 + p4 + p5 + p6 + p7 + p8);
+                $(pagetag).append(p1 + p2 + p3 + p4 + p5 + p6 + p7 + p8);
         }
 
 
