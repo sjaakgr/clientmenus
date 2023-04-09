@@ -143,15 +143,13 @@ $(function()
 
                         if (l_d == 'y') 
                             { lang = l_lc;
-                            alert('ik zet m aan');
                         }
-                        alert('l_lc:' + l_lc + '/lang:' + lang + '/l`_d' + l_d);
                 });  
 
     
 
 
-                loadMenu('nl', params, data); // Load the English menu by default   
+                loadMenu(lang, params, data); // Load the English menu by default   
                 
                 $('.flag').click(function()     // Handle click events on the language selector flags
                     {
