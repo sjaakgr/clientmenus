@@ -125,8 +125,8 @@ $(function()
                     section.style.backgroundImage = "url('./menus/images/" + client + "/" + "banner.jpg')";
 
 
-            /*
-                    //$('#languagebuttons').empty(); 
+            
+                    $('#languagebuttons').empty(); 
 
                     $.each(data.languages, function(index, langitem) 
                     {
@@ -143,7 +143,7 @@ $(function()
                    $('#languagebuttons').append(lrow); 
 
                 });  
-*/
+
     
 
 
@@ -200,6 +200,9 @@ $(function()
                  
 
                 // Populate the restaurant info with the data from the JSON file
+                    $('.menutitle').empty();
+                    $('.restaurantname').empty();
+                    $('.restauranttype-list').empty();
                     $.each(data.identification, function(index, identitem) 
                     {
                         var l = getjsonitem(identitem, "menutitle", lang);
@@ -211,6 +214,9 @@ $(function()
                     });   
 
                 // Also populate the restaurant about info with the data from the JSON file
+                    $('#about .small').empty();
+                    $('#about .about-list-header').empty();
+                    $('#about .about-list').empty();
                     $.each(data.about, function(index, aboutitem) 
                     {
                         var nn = "aboutitem.about_" + lang;                  
@@ -222,6 +228,7 @@ $(function()
                     });   
 
                 // Populate the menu lists with the data from the JSON file
+                    $('#lijst .coursecluster').empty();
                     $.each(data.gangen, function(index, gangitem) 
                     {
                         make_frame(gangitem, lang, params.imageslocation) ;                 
