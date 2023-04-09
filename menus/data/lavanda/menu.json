@@ -8,7 +8,7 @@
        "languagecode": "en",
        "image_location": "https://cdn.countryflags.com/thumbs/",
        "image": "united-kingdom/flag-round-250.png",
-       "default": "n"
+       "default": "y"
        }
    ,
        {
@@ -16,7 +16,7 @@
         "languagecode": "nl",
         "image_location": "https://cdn.countryflags.com/thumbs/",
        "image": "netherlands/flag-round-250.png",
-       "default": "y"
+       "default": "n"
        }
    ]  
 
