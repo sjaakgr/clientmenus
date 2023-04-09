@@ -142,8 +142,7 @@ $(function()
 
                    $('#languagebuttons').append(lrow); 
 
-                   if (getjsonitem(langitem, "default", lang) == 'y') {var lang = getjsonitem(langitem, "default", lang);}
-
+                   if (getjsonitem(langitem, "default", lang) == 'y') {var lang = getjsonitem(langitem, "languagecode", lang);}
 
                 });  
 
