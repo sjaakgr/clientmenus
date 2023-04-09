@@ -81,7 +81,58 @@
                   "image": "frenchred.jpg",
                   "group": "gel"
               }
-             
+              ,
+              {
+                  "name_nl": "Oranje",
+                  "name_en": "Orange",
+                  "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
+                  "description_en": "Nicely finished.All color varaitions are possible. ",
+                  "price": "€ 37,50",
+                  "image_location": "./",
+                  "image": "oranje.jpg",
+                  "group": "gel"
+              } ,
+              {
+                  "name_nl": "Creme",
+                  "name_en": "Creme",
+                  "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
+                  "description_en": "Nicely finished.All color varaitions are possible. ",
+                  "price": "€ 37,50",
+                  "image_location": "./",
+                  "image": "creme.jpg",
+                  "group": "gel"
+              },
+              {
+                  "name_nl": "Geinig geel",
+                  "name_en": "Funny yellow",
+                  "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
+                  "description_en": "Nicely finished.All color varaitions are possible. ",
+                  "price": "€ 37,50",
+                  "image_location": "./",
+                  "image": "geiniggeel.jpg",
+                  "group": "gel"
+              }
+              ,
+              {
+                  "name_nl": "Roze blauw",
+                  "name_en": "Pink and blue",
+                  "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
+                  "description_en": "Nicely finished.All color varaitions are possible. ",
+                  "price": "€ 37,50",
+                  "image_location": "./",
+                  "image": "rozeblauw.jpg",
+                  "group": "gel"
+              },
+              {
+                  "name_nl": "Slang",
+                  "name_en": "Snake",
+                  "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
+                  "description_en": "Nicely finished.All color varaitions are possible. ",
+                  "price": "€ 37,50",
+                  "image_location": "./",
+                  "image": "slangetjes.jpg",
+                  "group": "gel"
+              }
 
           ]
   
@@ -119,7 +170,59 @@
                 "image": "zwartgoud.jpg",
                 "group": "gelspecials"
             }
-           
+            ,
+            {
+                "name_nl": "Oranje tijger",
+                "name_en": "Oragne tiger",
+                "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
+                "description_en": "Nicely finished.All color varaitions are possible. ",
+                "price": "€ 37,50",
+                "image_location": "./",
+                "image": "oranjetijger.jpg",
+                "group": "gel"
+            },
+            {
+                "name_nl": "Mix",
+                "name_en": "Combination",
+                "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
+                "description_en": "Nicely finished.All color varaitions are possible. ",
+                "price": "€ 37,50",
+                "image_location": "./",
+                "image": "vanalles.jpg",
+                "group": "gel"
+            },
+            {
+                "name_nl": "Roze blokjes",
+                "name_en": "Pink blocks",
+                "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
+                "description_en": "Nicely finished.All color varaitions are possible. ",
+                "price": "€ 37,50",
+                "image_location": "./",
+                "image": "rozeblokjes.jpg",
+                "group": "gel"
+            }
+            ,
+            {
+                "name_nl": "Stippels",
+                "name_en": "Spots",
+                "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
+                "description_en": "Nicely finished.All color varaitions are possible. ",
+                "price": "€ 37,50",
+                "image_location": "./",
+                "image": "stippels.jpg",
+                "group": "gel"
+            },
+            {
+                "name_nl": "Raket",
+                "name_en": "Rocket",
+                "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
+                "description_en": "Nicely finished.All color varaitions are possible. ",
+                "price": "€ 37,50",
+                "image_location": "./",
+                "image": "raket.jpg",
+                "group": "gel"
+            }
+
 
         ]
 
