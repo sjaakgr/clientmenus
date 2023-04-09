@@ -141,7 +141,8 @@ $(function()
                     section.style.backgroundImage = "url('./menus/images/" + client + "/" + "banner.jpg')";
 
 
-                    $('#showcase .buttonrow').empty(); 
+                   // $('#showcase .buttonrow').empty(); 
+                    $('#showcase .languagebuttons').empty(); 
 
                     $.each(data.languages, function(index, langitem) 
                     {
@@ -155,7 +156,8 @@ $(function()
                    getjsonitem(langitem, "languagecode", lang) +
                    '" width="20" height="auto">';
 
-                   $('#showcase .buttonrow').append(lrow); 
+                 //  $('#showcase .buttonrow').append(lrow); 
+                   $('#showcase .languagebuttons').append(lrow); 
 
                    
             
