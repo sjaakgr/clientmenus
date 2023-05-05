@@ -22,14 +22,14 @@
 
     ,
     "identification": [
-        {"menutitle": "Lavanda"}
-        ,{"restaurantname": "Lavanda Nails"}
-        ,{"restauranttype_en": "Gel nails<BR>"}
-        ,{"restauranttype_en": "Manicure<BR>"}
-        ,{"restauranttype_en": "Pedicure"}
-        ,{"restauranttype_nl": "Gelnagels<BR>"}
-        ,{"restauranttype_nl": "Manicure<BR>"}
-        ,{"restauranttype_nl": "Pedicure"}
+        {"menutitle": "DudOke"}
+        ,{"restaurantname": "DudOk Coffee and cake"}
+        ,{"restauranttype_en": "Coffee<BR>"}
+        ,{"restauranttype_en": "Cake<BR>"}
+        ,{"restauranttype_en": "Snacks"}
+        ,{"restauranttype_nl": "Koffie<BR>"}
+        ,{"restauranttype_nl": "Gebak<BR>"}
+        ,{"restauranttype_nl": "Peuzelhapjes"}
    ]
    ,"about": [
     {"about_en": "About us"}
