@@ -95,6 +95,30 @@
         
         [
             {
+                "name": "Pasta",
+                "description_nl": "Italiaanse pasta. ",
+                "description_en": "Italian pasta. ",
+
+                "price": "€ 12,50",
+                "image_location": "./",
+                "image": "pasta.jpg",
+                "group": "pasta"
+            }
+           
+            ,{
+                "name_nl": "Zalm",
+                "name_en": "Salmon",
+                "description_nl": "Duurzame zalm. ",
+                "description_en": "Sustainable salmon. ",
+
+                "price": "€ 24,50",
+                "image_location": "./",
+                "image": "zalm.jpg",
+                "group": "vis"
+            }
+           
+
+            ,{
                 "name_nl": "Jawel",
                 "name_en": "Yes indeed",
                 "description_nl": "Bla bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla. ",
