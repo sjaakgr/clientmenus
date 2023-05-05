@@ -23,13 +23,13 @@
     ,
     "identification": [
         {"menutitle": "DudOke"}
-        ,{"restaurantname": "DudOk Coffee and cake"}
-        ,{"restauranttype_en": "Coffee<BR>"}
-        ,{"restauranttype_en": "<p style='color:red;'>Cake</p>"}
-        ,{"restauranttype_en": "Snacks"}
-        ,{"restauranttype_nl": "Koffie<BR>"}
-        ,{"restauranttype_nl": "Gebak<BR>"}
-        ,{"restauranttype_nl": "Peuzelhapjes"}
+        ,{"restaurantname": "<p style='color:silver;'>DudOk Coffee and cake</p>"}
+        ,{"restauranttype_en": "<p style='color:silver;'>Coffee</p>"}
+        ,{"restauranttype_en": "<p style='color:silver;'>Cake</p>"}
+        ,{"restauranttype_en": "<p style='color:silver;'>Snacks</p>"}
+        ,{"restauranttype_en": "<p style='color:silver;'>Koffie</p>"}
+        ,{"restauranttype_en": "<p style='color:silver;'>Gebak</p>"}
+        ,{"restauranttype_en": "<p style='color:silver;'>Peuzelhapjes</p>"}
    ]
    ,"about": [
     {"about_en": "About us"}
