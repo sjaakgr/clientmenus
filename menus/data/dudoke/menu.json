@@ -25,7 +25,7 @@
         {"menutitle": "DudOke"}
         ,{"restaurantname": "DudOk Coffee and cake"}
         ,{"restauranttype_en": "Coffee<BR>"}
-        ,{"restauranttype_en": "<p style='color:red;'>Cake</p><BR>"}
+        ,{"restauranttype_en": "<p style='color:red;'>Cake</p>"}
         ,{"restauranttype_en": "Snacks"}
         ,{"restauranttype_nl": "Koffie<BR>"}
         ,{"restauranttype_nl": "Gebak<BR>"}
