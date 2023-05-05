@@ -23,13 +23,14 @@
     ,
     "identification": [
         {"menutitle": "DudOke"}
-        ,{"restaurantname": "<p style='color:#2ECC71;'>DudOk Coffee and cake</p>"}
-        ,{"restauranttype_en": "<p style='color:#2ECC71;'>Coffee</p>"}
-        ,{"restauranttype_en": "<p style='color:#2ECC71;'>Cake</p>"}
-        ,{"restauranttype_en": "<p style='color:#2ECC71;'>Snacks</p>"}
-        ,{"restauranttype_nl": "<p style='color:#2ECC71;'>Koffie</p>"}
-        ,{"restauranttype_nl": "<p style='color:#2ECC71;'>Gebak</p>"}
-        ,{"restauranttype_nl": "<p style='color:#2ECC71;'>Peuzelhapjes</p>"}
+        ,{"restaurantname_en": "<p style='color:white;'>DudOk Coffee and cake</p>"}
+        ,{"restaurantname_nl": "<p style='color:white;'>DudOk Koffie en Appeltaart</p>"}
+        ,{"restauranttype_en": "<p style='color:white;'>Coffee</p>"}
+        ,{"restauranttype_en": "<p style='color:white;'>Cake</p>"}
+        ,{"restauranttype_en": "<p style='color:white;'>Snacks</p>"}
+        ,{"restauranttype_nl": "<p style='color:white;'>Koffie</p>"}
+        ,{"restauranttype_nl": "<p style='color:white;'>Gebak</p>"}
+        ,{"restauranttype_nl": "<p style='color:white;'>Peuzelhapjes</p>"}
    ]
    ,"about": [
     {"about_en": "About us"}
