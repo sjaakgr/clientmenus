@@ -52,86 +52,33 @@
  
   [
       {
-          "course": "gelnails",
-          "coursetag_en": "Gel Nails",
-          "coursetag_nl": "Gelnagels",
+          "course": "vooraf",
+          "coursetag_en": "Starters",
+          "coursetag_nl": "Voorgerechten",
 
           "dish": 
           
           [
               {
-                  "name_nl": "Blauw en roze",
-                  "name_en": "Blue and pink",
-                  "description_nl": "Mooi afgewerkte blauw en roze gelnagels. Uiteraard zijn alle kleurvariaties mogelijk. ",
-                  "description_en": "Nicely finished gel nails in blue and pink. All color varaitions are possible. ",
-                  "price": "€ 35,00",
+                  "name_nl": "Uiensoep",
+                  "name_en": "Onion soup",
+                  "description_nl": "Heerlijke franse uiensoep bla bla. ",
+                  "description_en": "Nice french onion soup. Bla bla bla... ",
+                  "price": "€ 9,00",
                   "image_location": "./",
-                  "image": "blauwenroze.jpg",
-                  "group": "gel"
+                  "image": "uiensoep.jpg",
+                  "group": "soep"
               }
              
               ,
               {
-                  "name_nl": "Frans rood",
-                  "name_en": "French red",
-                  "description_nl": "Mooi afgewerkte rood in franse stijl. Uiteraard zijn alle kleurvariaties mogelijk. ",
-                  "description_en": "Nicely finished red french finish. All color varaitions are possible. ",
-                  "price": "€ 37,50",
+                  "name": "Taco chips",
+                  "description_nl": "Mexicaanse taco chips uit eigen keuken. Met guacomole. ",
+                  "description_en": "Mexican crispy chips from the chef. Comes with guacamole. ",
+                  "price": "€ 9,30",
                   "image_location": "./",
-                  "image": "frenchred.jpg",
-                  "group": "gel"
-              }
-              ,
-              {
-                  "name_nl": "Oranje",
-                  "name_en": "Orange",
-                  "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
-                  "description_en": "Nicely finished.All color varaitions are possible. ",
-                  "price": "€ 37,50",
-                  "image_location": "./",
-                  "image": "oranje.jpg",
-                  "group": "gel"
-              } ,
-              {
-                  "name_nl": "Creme",
-                  "name_en": "Creme",
-                  "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
-                  "description_en": "Nicely finished.All color varaitions are possible. ",
-                  "price": "€ 37,50",
-                  "image_location": "./",
-                  "image": "creme.jpg",
-                  "group": "gel"
-              },
-              {
-                  "name_nl": "Geinig geel",
-                  "name_en": "Funny yellow",
-                  "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
-                  "description_en": "Nicely finished.All color varaitions are possible. ",
-                  "price": "€ 37,50",
-                  "image_location": "./",
-                  "image": "geiniggeel.jpg",
-                  "group": "gel"
-              }
-              ,
-              {
-                  "name_nl": "Roze blauw",
-                  "name_en": "Pink and blue",
-                  "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
-                  "description_en": "Nicely finished.All color varaitions are possible. ",
-                  "price": "€ 37,50",
-                  "image_location": "./",
-                  "image": "rozeblauw.jpg",
-                  "group": "gel"
-              },
-              {
-                  "name_nl": "Slang",
-                  "name_en": "Snake",
-                  "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
-                  "description_en": "Nicely finished.All color varaitions are possible. ",
-                  "price": "€ 37,50",
-                  "image_location": "./",
-                  "image": "slangetjes.jpg",
-                  "group": "gel"
+                  "image": "taco.jpg",
+                  "group": "bites"
               }
 
           ]
@@ -140,88 +87,37 @@
 
       ,
       {
-        "course": "specialgel",
-        "coursetag_en": "Gel Nails specials",
-        "coursetag_nl": "Gelnagels speciaal",
+        "course": "hoofdgerechten",
+        "coursetag_en": "Main courses",
+        "coursetag_nl": "Hoofdgerechten",
 
         "dish": 
         
         [
             {
-                "name_nl": "Roze met gouden details",
-                "name_en": "Pink with gold details",
-                "description_nl": "Roze en goud gelnagels. Uiteraard zijn alle kleurvariaties mogelijk. ",
-                "description_en": "Pink and gold gel nails. All color varaitions are possible. ",
+                "name_nl": "Jawel",
+                "name_en": "Yes indeed",
+                "description_nl": "Bla bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla. ",
+                "description_en": "Wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha. ",
 
                 "price": "€ 32,50",
                 "image_location": "./",
-                "image": "rosegoudslinger.jpg",
-                "group": "gelspecials"
+                "image": "friet.jpg",
+                "group": "frituur"
             }
            
-            ,
-            {
-                "name_nl": "Zwart en goud",
-                "name_en": "Black and gold",
-                "description_nl": "Stijlvol zwart met goud. Uiteraard zijn alle kleurvariaties mogelijk. ",
-                "description_en": "Stylish black and gold gel. All color varaitions are possible. ",
-                "price": "€ 42,50",
+            ,{
+                "name_nl": "Jawel nog een",
+                "name_en": "Yes indeed another one",
+                "description_nl": "Bla bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla. ",
+                "description_en": "Wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha. ",
+
+                "price": "€ 27,50",
                 "image_location": "./",
-                "image": "zwartgoud.jpg",
-                "group": "gelspecials"
+                "image": "kroket.jpg",
+                "group": "frituur"
             }
-            ,
-            {
-                "name_nl": "Oranje tijger",
-                "name_en": "Oragne tiger",
-                "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
-                "description_en": "Nicely finished.All color varaitions are possible. ",
-                "price": "€ 37,50",
-                "image_location": "./",
-                "image": "oranjetijger.jpg",
-                "group": "gel"
-            },
-            {
-                "name_nl": "Mix",
-                "name_en": "Combination",
-                "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
-                "description_en": "Nicely finished.All color varaitions are possible. ",
-                "price": "€ 37,50",
-                "image_location": "./",
-                "image": "vanalles.jpg",
-                "group": "gel"
-            },
-            {
-                "name_nl": "Roze blokjes",
-                "name_en": "Pink blocks",
-                "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
-                "description_en": "Nicely finished.All color varaitions are possible. ",
-                "price": "€ 37,50",
-                "image_location": "./",
-                "image": "rozeblokjes.jpg",
-                "group": "gel"
-            }
-            ,
-            {
-                "name_nl": "Stippels",
-                "name_en": "Spots",
-                "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
-                "description_en": "Nicely finished.All color varaitions are possible. ",
-                "price": "€ 37,50",
-                "image_location": "./",
-                "image": "stippels.jpg",
-                "group": "gel"
-            },
-            {
-                "name_nl": "Raket",
-                "name_en": "Rocket",
-                "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
-                "description_en": "Nicely finished.All color varaitions are possible. ",
-                "price": "€ 37,50",
-                "image_location": "./",
-                "image": "raket.jpg",
-                "group": "gel"
-            }
+           
 
 
         ]
