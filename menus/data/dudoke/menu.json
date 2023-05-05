@@ -27,9 +27,9 @@
         ,{"restauranttype_en": "<p style='color:silver;'>Coffee</p>"}
         ,{"restauranttype_en": "<p style='color:silver;'>Cake</p>"}
         ,{"restauranttype_en": "<p style='color:silver;'>Snacks</p>"}
-        ,{"restauranttype_en": "<p style='color:silver;'>Koffie</p>"}
-        ,{"restauranttype_en": "<p style='color:silver;'>Gebak</p>"}
-        ,{"restauranttype_en": "<p style='color:silver;'>Peuzelhapjes</p>"}
+        ,{"restauranttype_nl": "<p style='color:silver;'>Koffie</p>"}
+        ,{"restauranttype_nl": "<p style='color:silver;'>Gebak</p>"}
+        ,{"restauranttype_nl": "<p style='color:silver;'>Peuzelhapjes</p>"}
    ]
    ,"about": [
     {"about_en": "About us"}
