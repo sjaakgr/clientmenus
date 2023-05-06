@@ -138,6 +138,50 @@
                     var lang = $(this).data('lang');
                     loadMenu(lang, params, data);
                 });
+                
+                
+                
+                $(function () {
+                    $("#addButton").click(function () {
+                    const besteldatumtijd = new Date();
+                    const item = 'test';
+                    const afleverlocatie = "Tafel 123";
+                    const status = 'ordered';
+                    const aantal = 9;
+                    const order = {
+                        besteldatumtijd,
+                        item,
+                        afleverlocatie,
+                        status,
+                        aantal
+                        };
+                    fetch('api/orders.php', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json' },
+                        body: JSON.stringify(order)
+                        })
+                    .then(response => {
+                        if (response.status === 200) {
+                            alert('Order added successfully!' + besteldatumtijd);
+                        } else {
+                            alert('Error adding order.');
+                        }
+                        });
+                    });
+                });
+        
+   
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
             }); // einde verwerking json file menu
 
         });  // einde verwerking json file params
@@ -311,48 +355,6 @@
         
         
         
-        
-        
-        
-        
-        
-        $(function () {
-  $("#addButton").click(function () {
-      
-      
-      const besteldatumtijd = new Date();
-
-  const item = 'test';
-  const afleverlocatie = "Tafel 123";
-  const status = 'ordered';
-  const aantal = 9;
-  const order = {
-      besteldatumtijd,
-      item,
-      afleverlocatie,
-      status,
-      aantal
-  };
-  fetch('api/orders.php', {
-      method: 'POST',
-      headers: {
-          'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(order)
-  })
-  .then(response => {
-      if (response.status === 200) {
-          
-          alert('Order added successfully!' + besteldatumtijd);
-      } else {
-          alert('Error adding order.');
-      }
-  })
-
-  ;
-      
-  });
-});
         
         
         
