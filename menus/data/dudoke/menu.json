@@ -49,109 +49,75 @@
    ]
   ,
 
-  "gangen": 
- 
-  [
-      {
-          "course": "vooraf",
-          "coursetag_en": "Starters",
-          "coursetag_nl": "Voorgerechten",
-
-          "dish": 
-          
-          [
-              {
-                  "name_nl": "Uiensoep",
-                  "name_en": "Onion soup",
-                  "description_nl": "Heerlijke franse uiensoep bla bla. ",
-                  "description_en": "Nice french onion soup. Bla bla bla... ",
-                  "price": "€ 9,00",
-                  "image_location": "./",
-                  "image": "uiensoep.jpg",
-                  "group": "soep"
-              }
-             
-              ,
-              {
-                  "name": "Taco chips",
-                  "description_nl": "Mexicaanse taco chips uit eigen keuken. Met guacomole. ",
-                  "description_en": "Mexican crispy chips from the chef. Comes with guacamole. ",
-                  "price": "€ 9,30",
-                  "image_location": "./",
-                  "image": "taco.jpg",
-                  "group": "bites"
-              }
-
-          ]
-  
-      }
-
-      ,
-      {
-        "course": "hoofdgerechten",
-        "coursetag_en": "Main courses",
-        "coursetag_nl": "Hoofdgerechten",
-
-        "dish": 
-        
-        [
-            {
-                "name": "Pasta",
-                "description_nl": "Italiaanse pasta. ",
-                "description_en": "Italian pasta. ",
-
-                "price": "€ 12,50",
-                "image_location": "./",
-                "image": "pasta.jpg",
-                "group": "pasta"
-            }
-           
-            ,{
-                "name_nl": "Zalm",
-                "name_en": "Salmon",
-                "description_nl": "Duurzame zalm. ",
-                "description_en": "Sustainable salmon. ",
-
-                "price": "€ 24,50",
-                "image_location": "./",
-                "image": "zalm.jpg",
-                "group": "vis"
-            }
-           
-
-            ,{
-                "name_nl": "Jawel",
-                "name_en": "Yes indeed",
-                "description_nl": "Bla bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla. ",
-                "description_en": "Wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha. ",
-
-                "price": "€ 32,50",
-                "image_location": "./",
-                "image": "friet.jpg",
-                "group": "frituur"
-            }
-           
-            ,{
-                "name_nl": "Jawel nog een",
-                "name_en": "Yes indeed another one",
-                "description_nl": "Bla bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla. ",
-                "description_en": "Wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha, wha. ",
-
-                "price": "€ 27,50",
-                "image_location": "./",
-                "image": "kroket.jpg",
-                "group": "frituur"
-            }
-           
 
 
-        ]
 
+  "gangen": [
+    {
+      "course": "vooraf",
+      "coursetag_en": "Starters",
+      "coursetag_nl": "Voorgerechten",
+      "dish": [
+        {
+          "name_nl": "Tomatensoep",
+          "name_en": "Tomato soup",
+          "description_nl": "Verse tomatensoep met een vleugje basilicum. Geserveerd met een stukje brood.",
+          "description_en": "Fresh tomato soup with a hint of basil. Served with a piece of bread.",
+          "price": "€ 7,50",
+          "image_location": "https://www.pexels.com/nl-nl/",
+          "image": "tomatensoep.jpg",
+          "group": "soep"
+        },
+        {
+          "name_nl": "Geitenkaassalade",
+          "name_en": "Goat cheese salad",
+          "description_nl": "Frisse salade met geitenkaas, tomaat, komkommer en balsamico dressing.",
+          "description_en": "Fresh salad with goat cheese, tomato, cucumber and balsamic dressing.",
+          "price": "€ 9,00",
+          "image_location": "https://www.pexels.com/nl-nl/",
+          "image": "geitenkaassalade.jpg",
+          "group": "salade"
+        }
+      ]
+    },
+    {
+      "course": "hoofdgerechten",
+      "coursetag_en": "Main courses",
+      "coursetag_nl": "Hoofdgerechten",
+      "dish": [
+        {
+          "name_nl": "Pizza Margherita",
+          "name_en": "Margherita pizza",
+          "description_nl": "Klassieke Italiaanse pizza met tomatensaus en mozzarella.",
+          "description_en": "Classic Italian pizza with tomato sauce and mozzarella.",
+          "price": "€ 12,50",
+          "image_location": "https://www.pexels.com/nl-nl/",
+          "image": "margherita.jpg",
+          "group": "pizza"
+        },
+        {
+          "name_nl": "Boeuf Bourguignon",
+          "name_en": "Beef Bourguignon",
+          "description_nl": "Stoofpotje van rundvlees in rode wijn met champignons en ui. Geserveerd met aardappelpuree.",
+          "description_en": "Beef stew in red wine with mushrooms and onions. Served with mashed potatoes.",
+          "price": "€ 18,50",
+          "image_location": "https://www.pexels.com/nl-nl/",
+          "image": "boeufbourguignon.jpg",
+          "group": "vlees"
+        },
+        {
+          "name_nl": "Zeebaarsfilet",
+          "name_en": "Sea bass fillet",
+          "description_nl": "Gebakken zeebaarsfilet met geroosterde groenten en aardappeltjes uit de oven.",
+          "description_en": "Pan-fried sea bass fillet with roasted vegetables and oven-baked potatoes.",
+          "price": "€ 24,50",
+          "image_location": "https://www.pexels.com/nl-nl/",
+          "image": "zeebaars.jpg",
+          "group": "vis"
+        }
+      ]
     }
-      
-
- ]
-
-
- 
+  ]
 }
+
+
