@@ -268,7 +268,7 @@
                 
                 var l = il; // De generieke image location. Kan een relatieve locatie zijn, maar ook een url-vindplaats
                 var dl = getjsonitem(dishitem, "image_location", taal);                
-                if (dl !== '') { var l = dl + client + '/'; } // Als er een locale image locatie is meegegeven, dan aancullen met de locatie van de client-container
+                if (dl !== '') { var l = dl; } // Als er een locale image locatie is meegegeven, dan die gebruiken
             
                 var p1 = ''; 
                 if (i!="")
