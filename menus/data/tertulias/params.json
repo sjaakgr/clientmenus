@@ -8,7 +8,7 @@
     "imageslocation4": "./clientzone/tertulias/menu/images/",
 
     "menulocation": "./menus/data/",
-    "imageslocation": "./menus/images/",
+    "imageslocation": "./menus/images/tertulias/",
     "menufile": "menu.json"
 
 
