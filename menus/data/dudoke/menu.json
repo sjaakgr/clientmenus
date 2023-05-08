@@ -23,8 +23,8 @@
     ,
     "identification": [
         {"menutitle": "DudOke"}
-        ,{"restaurantname_en": "<p style='color:black;'>DudOk Coffee and cake</p>"}
-        ,{"restaurantname_nl": "<p style='color:black;'>DudOk Koffie en Appeltaart</p>"}
+        ,{"restaurantname_en": "<p style='color:peachpuff;'>DudOk Coffee and cake</p>"}
+        ,{"restaurantname_nl": "<p style='color:peachpuff;'>DudOk Koffie en Appeltaart</p>"}
         ,{"restauranttype_en": "<p style='color:white;'>Coffee</p>"}
         ,{"restauranttype_en": "<p style='color:white;'>Cake</p>"}
         ,{"restauranttype_en": "<p style='color:white;'>Snacks</p>"}
