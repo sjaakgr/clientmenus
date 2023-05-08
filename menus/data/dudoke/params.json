@@ -8,7 +8,7 @@
     "imageslocation4": "./clientzone/lavanda/menu/images/",
 
     "menulocation": "./menus/data/",
-    "imageslocation": "./menus/images/",
+    "imageslocation": "./menus/images/dudoke/",
     "menufile": "menu.json"
 
 
