@@ -266,8 +266,9 @@
                 // var l = "./menu/images/";
                 // var l = 'https://webkamer.nl/activefiles/corsextract.php?type=img&file=';
                 
-                var l = getjsonitem(item, "image_location", taal);                
-                if (l == '') { var l = il; }
+                var l = il; 
+                var dl = getjsonitem(dishitem, "image_location", taal);                
+                if (dl !== '') { var l = dl; }
             
                 var p1 = ''; 
                 if (i!="")
