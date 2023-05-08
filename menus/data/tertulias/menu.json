@@ -77,7 +77,7 @@
               {
                   "name_pt": "ROBALO",
                   "name_en": "SEABASS",
-                  "image_location": "./",
+                  "image_location": "./menus/images/",
                   "image": "robalo.jpg",
                   "price": "€ 10,30",
                   "group": "Local"
@@ -87,7 +87,7 @@
                   "name_pt": "DOURADA",
                   "name_en": "SEABREAM",
                   "price": "€ 10,30",
-                  "image_location": "./",
+                  "image_location": "./menus/images/",
                   "image": "dourada.png",
                   "group": "Local"
               }
