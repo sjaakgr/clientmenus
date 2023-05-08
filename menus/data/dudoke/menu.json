@@ -64,7 +64,6 @@
           "description_nl": "Verse tomatensoep met een vleugje basilicum. Geserveerd met een stukje brood.",
           "description_en": "Fresh tomato soup with a hint of basil. Served with a piece of bread.",
           "price": "€ 7,50",
-          "image_location": "https://www.pexels.com/nl-nl/",
           "image": "tomatensoep.jpg",
           "group": "soep"
         },
@@ -74,7 +73,6 @@
           "description_nl": "Frisse salade met geitenkaas, tomaat, komkommer en balsamico dressing.",
           "description_en": "Fresh salad with goat cheese, tomato, cucumber and balsamic dressing.",
           "price": "€ 9,00",
-          "image_location": "https://www.pexels.com/nl-nl/",
           "image": "geitenkaassalade.jpg",
           "group": "salade"
         }
@@ -91,7 +89,6 @@
           "description_nl": "Klassieke Italiaanse pizza met tomatensaus en mozzarella.",
           "description_en": "Classic Italian pizza with tomato sauce and mozzarella.",
           "price": "€ 12,50",
-          "image_location": "https://www.pexels.com/nl-nl/",
           "image": "pizzamargherita.jpg",
           "group": "pizza"
         },
@@ -101,7 +98,6 @@
           "description_nl": "Stoofpotje van rundvlees in rode wijn met champignons en ui. Geserveerd met aardappelpuree.",
           "description_en": "Beef stew in red wine with mushrooms and onions. Served with mashed potatoes.",
           "price": "€ 18,50",
-          "image_location": "./",
           "image": "boeufbourguignon.jpg",
           "group": "vlees"
         },
@@ -111,7 +107,6 @@
           "description_nl": "Gebakken zeebaarsfilet met geroosterde groenten en aardappeltjes uit de oven.",
           "description_en": "Pan-fried sea bass fillet with roasted vegetables and oven-baked potatoes.",
           "price": "€ 24,50",
-          "image_location": "./",
           "image": "zeebaarsfilet.jpg",
           "group": "vis"
         }
