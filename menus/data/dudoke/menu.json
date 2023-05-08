@@ -92,7 +92,7 @@
           "description_en": "Classic Italian pizza with tomato sauce and mozzarella.",
           "price": "€ 12,50",
           "image_location": "https://www.pexels.com/nl-nl/",
-          "image": "margherita.jpg",
+          "image": "pizzamargherita.jpg",
           "group": "pizza"
         },
         {
@@ -102,7 +102,7 @@
           "description_en": "Beef stew in red wine with mushrooms and onions. Served with mashed potatoes.",
           "price": "€ 18,50",
           "image_location": "./",
-          "image": "soep.jpg",
+          "image": "boeufbourguignon.jpg",
           "group": "vlees"
         },
         {
@@ -112,7 +112,7 @@
           "description_en": "Pan-fried sea bass fillet with roasted vegetables and oven-baked potatoes.",
           "price": "€ 24,50",
           "image_location": "./",
-          "image": "zalm.jpg",
+          "image": "zeebaarsfilet.jpg",
           "group": "vis"
         }
       ]
