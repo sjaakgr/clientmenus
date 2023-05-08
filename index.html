@@ -266,14 +266,15 @@
                 // var l = "./menu/images/";
                 // var l = 'https://webkamer.nl/activefiles/corsextract.php?type=img&file=';
                 
-                var l = il; 
+                var l = il; // De generieke image location. Kan een relatieve locatie zijn, maar ook een url-vindplaats
                 var dl = getjsonitem(dishitem, "image_location", taal);                
-                if (dl !== '') { var l = dl; }
+                if (dl !== '') { var l = dl + client + '/'; } // Als er een locale image locatie is meegegeven, dan aancullen met de locatie van de client-container
             
                 var p1 = ''; 
                 if (i!="")
                     { var p1 = '  <div class="food-img" align=center> '
-                                + '    <img  src="' + l + client + '/' + i + '" alt="' + n + '" /> '
+//                              + '    <img  src="' + l + client + '/' + i + '" alt="' + n + '" /> '
+                                + '    <img  src="' + l + i + '" alt="' + n + '" /> '
                                 + '  </div> ' ;}
                 var p2 = '<div class="food-menu-item" align=center>' ;
                 var p3 = '  <div class="food-description" align=center> ';
