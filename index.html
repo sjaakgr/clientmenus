@@ -265,8 +265,10 @@
                 // var l = getjsonitem(item, "image_location", taal);                
                 // var l = "./menu/images/";
                 // var l = 'https://webkamer.nl/activefiles/corsextract.php?type=img&file=';
-                var l = il;
-
+                
+                var l = getjsonitem(item, "image_location", taal);                
+                if (l=='') { var l = il; }
+            
                 var p1 = ''; 
                 if (i!="")
                     { var p1 = '  <div class="food-img" align=center> '
