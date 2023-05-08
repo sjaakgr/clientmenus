@@ -65,7 +65,6 @@
                   "description_nl": "Mooi afgewerkte blauw en roze gelnagels. Uiteraard zijn alle kleurvariaties mogelijk. ",
                   "description_en": "Nicely finished gel nails in blue and pink. All color varaitions are possible. ",
                   "price": "€ 35,00",
-                  "image_location": "./",
                   "image": "blauwenroze.jpg",
                   "group": "gel"
               }
@@ -77,7 +76,6 @@
                   "description_nl": "Mooi afgewerkte rood in franse stijl. Uiteraard zijn alle kleurvariaties mogelijk. ",
                   "description_en": "Nicely finished red french finish. All color varaitions are possible. ",
                   "price": "€ 37,50",
-                  "image_location": "./",
                   "image": "frenchred.jpg",
                   "group": "gel"
               }
@@ -88,7 +86,6 @@
                   "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
                   "description_en": "Nicely finished.All color varaitions are possible. ",
                   "price": "€ 37,50",
-                  "image_location": "./",
                   "image": "oranje.jpg",
                   "group": "gel"
               } ,
@@ -98,7 +95,6 @@
                   "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
                   "description_en": "Nicely finished.All color varaitions are possible. ",
                   "price": "€ 37,50",
-                  "image_location": "./",
                   "image": "creme.jpg",
                   "group": "gel"
               },
@@ -108,7 +104,6 @@
                   "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
                   "description_en": "Nicely finished.All color varaitions are possible. ",
                   "price": "€ 37,50",
-                  "image_location": "./",
                   "image": "geiniggeel.jpg",
                   "group": "gel"
               }
@@ -119,7 +114,6 @@
                   "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
                   "description_en": "Nicely finished.All color varaitions are possible. ",
                   "price": "€ 37,50",
-                  "image_location": "./",
                   "image": "rozeblauw.jpg",
                   "group": "gel"
               },
@@ -129,7 +123,6 @@
                   "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
                   "description_en": "Nicely finished.All color varaitions are possible. ",
                   "price": "€ 37,50",
-                  "image_location": "./",
                   "image": "slangetjes.jpg",
                   "group": "gel"
               }
@@ -154,7 +147,6 @@
                 "description_en": "Pink and gold gel nails. All color varaitions are possible. ",
 
                 "price": "€ 32,50",
-                "image_location": "./",
                 "image": "rosegoudslinger.jpg",
                 "group": "gelspecials"
             }
@@ -166,7 +158,6 @@
                 "description_nl": "Stijlvol zwart met goud. Uiteraard zijn alle kleurvariaties mogelijk. ",
                 "description_en": "Stylish black and gold gel. All color varaitions are possible. ",
                 "price": "€ 42,50",
-                "image_location": "./",
                 "image": "zwartgoud.jpg",
                 "group": "gelspecials"
             }
@@ -177,7 +168,6 @@
                 "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
                 "description_en": "Nicely finished.All color varaitions are possible. ",
                 "price": "€ 37,50",
-                "image_location": "./",
                 "image": "oranjetijger.jpg",
                 "group": "gel"
             },
@@ -187,7 +177,6 @@
                 "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
                 "description_en": "Nicely finished.All color varaitions are possible. ",
                 "price": "€ 37,50",
-                "image_location": "./",
                 "image": "vanalles.jpg",
                 "group": "gel"
             },
@@ -197,7 +186,6 @@
                 "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
                 "description_en": "Nicely finished.All color varaitions are possible. ",
                 "price": "€ 37,50",
-                "image_location": "./",
                 "image": "rozeblokjes.jpg",
                 "group": "gel"
             }
@@ -208,7 +196,6 @@
                 "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
                 "description_en": "Nicely finished.All color varaitions are possible. ",
                 "price": "€ 37,50",
-                "image_location": "./",
                 "image": "stippels.jpg",
                 "group": "gel"
             },
@@ -218,8 +205,8 @@
                 "description_nl": "Mooi afgewerkt. Uiteraard zijn alle kleurvariaties mogelijk. ",
                 "description_en": "Nicely finished.All color varaitions are possible. ",
                 "price": "€ 37,50",
-                "image_location": "./",
-                "image": "raket.jpg",
+                "image_location": "https://m.media-amazon.com/images/I/",
+                "image": "51KAG+IMRqL._SL1001_.jpg",
                 "group": "gel"
             }
 
