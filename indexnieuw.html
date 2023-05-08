@@ -138,6 +138,50 @@
                     var lang = $(this).data('lang');
                     loadMenu(lang, params, data);
                 });
+                
+                
+                
+                $(function () {
+                    $("#addButton").click(function () {
+                    const besteldatumtijd = new Date();
+                    const item = 'test';
+                    const afleverlocatie = "Tafel 123";
+                    const status = 'ordered';
+                    const aantal = 9;
+                    const order = {
+                        besteldatumtijd,
+                        item,
+                        afleverlocatie,
+                        status,
+                        aantal
+                        };
+                    fetch('api/orders.php', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json' },
+                        body: JSON.stringify(order)
+                        })
+                    .then(response => {
+                        if (response.status === 200) {
+                            alert('Order added successfully!' + besteldatumtijd);
+                        } else {
+                            alert('Error adding order.');
+                        }
+                        });
+                    });
+                });
+        
+   
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
             }); // einde verwerking json file menu
 
         });  // einde verwerking json file params
@@ -265,17 +309,20 @@
                 // var l = getjsonitem(item, "image_location", taal);                
                 // var l = "./menu/images/";
                 // var l = 'https://webkamer.nl/activefiles/corsextract.php?type=img&file=';
-                
-                var l = il; // De generieke image location. Kan een relatieve locatie zijn, maar ook een url-vindplaats
-                var dl = getjsonitem(dishitem, "image_location", taal);                
-                if (dl !== '') { var l = dl; } // Als er een locale image locatie is meegegeven, dan die gebruiken
-            
+                var l = il;
+
                 var p1 = ''; 
+            
                 if (i!="")
+                    
+                    /*
                     { var p1 = '  <div class="food-img" align=center> '
-//                              + '    <img  src="' + l + client + '/' + i + '" alt="' + n + '" /> '
-                                + '    <img  src="' + l + i + '" alt="' + n + '" /> '
+                                + '    <img  src="' + l + client + '/' + i + '" alt="' + n + '" /> '
                                 + '  </div> ' ;}
+                    */
+            
+                    { var p1 = '<div class="food-img" align=center>  <img src="' + l + client + '/' + i + '" alt="' + n + '" id="addButton" />  </div> ' ;}
+            
                 var p2 = '<div class="food-menu-item" align=center>' ;
                 var p3 = '  <div class="food-description" align=center> ';
                 var p4 = '';
@@ -305,6 +352,22 @@
             }
             return itemcontent;
         }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
     });
 

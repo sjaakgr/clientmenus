@@ -1,0 +1,118 @@
+{
+    
+    "languages": 
+   
+    [
+       {
+       "language": "english",
+       "languagecode": "en",
+       "image_location": "https://cdn.countryflags.com/thumbs/",
+       "image": "united-kingdom/flag-round-250.png",
+       "default": "n"
+       }
+   ,
+       {
+        "language": "dutch",
+        "languagecode": "nl",
+        "image_location": "https://cdn.countryflags.com/thumbs/",
+       "image": "netherlands/flag-round-250.png",
+       "default": "y"
+       }
+   ]  
+
+    ,
+    "identification": [
+        {"menutitle": "DudOke"}
+        ,{"restaurantname_en": "<p style='color:darkkhaki;'>DudOk Coffee and cake</p>"}
+        ,{"restaurantname_nl": "<p style='color:darkkhaki;'>DudOk Koffie en Appeltaart</p>"}
+        ,{"restauranttype_en": "<p style='color:white;'>Coffee</p>"}
+        ,{"restauranttype_en": "<p style='color:white;'>Cake</p>"}
+        ,{"restauranttype_en": "<p style='color:white;'>Snacks</p>"}
+        ,{"restauranttype_nl": "<p style='color:white;'>Koffie</p>"}
+        ,{"restauranttype_nl": "<p style='color:white;'>Gebak</p>"}
+        ,{"restauranttype_nl": "<p style='color:white;'>Peuzelhapjes</p>"}
+   ]
+   ,"about": [
+    {"about_en": "About us"}
+   ,{"about_nl": "Over ons"}
+   
+   ,{"description_header_en": "French grandeur and a genuine Rotterdam vibe."}
+   ,{"description_header_nl": "Franse grandeur in een puur Rotterdams jasje"}
+   
+   ,{"description_en": "Dudok Rotterdam is where our adventure started. 32 years ago we opened our doors in a building on the Meent, designed by the well-known Dutch architect Willem Marinus Dudok and introduced Rotterdam to what we believe should be a city café and brasserie. Dudok follows the rhythm of the city and therefore offers a varied menu with a French touch throughout the day. "}
+   ,{"description_en": "The formula has remained unchanged since then and Dudok Rotterdam remains a lively meeting place to this day. Here you can enjoy breakfast with a newspaper at the reading table or delicious lunch dishes. Or a cozy drink or café dishes for dinner, but also for a nice piece of cake. Meanwhile, the Meent has developed into the beating heart of the center. "}
+   ,{"description_en": "A lively street with the feeling of international allure due to the large number of unique shops and boutiques. Take a seat on our large and sunny terrace and see for yourself the activity of the bustling city of Rotterdam! "}
+
+   ,{"description_nl": "Dudok Rotterdam is waar ons avontuur begon. 32 jaar geleden openden wij onze deuren in een gebouw aan de Meent, ontworpen door de bekende Nederlandse architect Willem Marinus Dudok en lieten Rotterdam kennismaken met dát wat volgens ons een stadscafé- en brasserie hoort te zijn.  Dudok volgt het ritme van de stad en biedt dan ook de hele dag door een gevarieerde kaart met Franse inslag. "}
+   ,{"description_nl": "De formule is sindsdien ongewijzigd en zo is Dudok Rotterdam tot op de dag van vandaag een levendige ontmoetingsplek. Hier schuif je aan voor ontbijt met een krantje aan de leestafel of heerlijke lunchgerechten. Of een gezellig borrel of cafégerechten als diner, maar ook voor een lekker stuk taart. Inmiddels is de Meent ontwikkeld tot het kloppende hart van het centrum. "}
+   ,{"description_nl": "Een levendige straat met het gevoel van internationale allure door het grote aantal unieke winkels en boetieks. Neem plaats op ons grote en zonnige terras en aanschouw zelf de bedrijvigheid van de bruisende stad Rotterdam!" }
+   ]
+  ,
+
+
+
+
+  "gangen": [
+    {
+      "course": "vooraf",
+      "coursetag_en": "Starters",
+      "coursetag_nl": "Voorgerechten",
+      "dish": [
+        {
+          "name_nl": "Tomatensoep",
+          "name_en": "Tomato soup",
+          "description_nl": "Verse tomatensoep met een vleugje basilicum. Geserveerd met een stukje brood.",
+          "description_en": "Fresh tomato soup with a hint of basil. Served with a piece of bread.",
+          "price": "€ 7,50",
+          "image": "tomatensoep.jpg",
+          "group": "soep"
+        },
+        {
+          "name_nl": "Geitenkaassalade",
+          "name_en": "Goat cheese salad",
+          "description_nl": "Frisse salade met geitenkaas, tomaat, komkommer en balsamico dressing.",
+          "description_en": "Fresh salad with goat cheese, tomato, cucumber and balsamic dressing.",
+          "price": "€ 9,00",
+          "image": "geitenkaassalade.jpg",
+          "group": "salade"
+        }
+      ]
+    },
+    {
+      "course": "hoofdgerechten",
+      "coursetag_en": "Main courses",
+      "coursetag_nl": "Hoofdgerechten",
+      "dish": [
+        {
+          "name_nl": "Pizza Margherita",
+          "name_en": "Margherita pizza",
+          "description_nl": "Klassieke Italiaanse pizza met tomatensaus en mozzarella.",
+          "description_en": "Classic Italian pizza with tomato sauce and mozzarella.",
+          "price": "€ 12,50",
+          "image": "pizzamargherita.jpg",
+          "group": "pizza"
+        },
+        {
+          "name_nl": "Boeuf Bourguignon",
+          "name_en": "Beef Bourguignon",
+          "description_nl": "Stoofpotje van rundvlees in rode wijn met champignons en ui. Geserveerd met aardappelpuree.",
+          "description_en": "Beef stew in red wine with mushrooms and onions. Served with mashed potatoes.",
+          "price": "€ 18,50",
+          "image": "boeufbourguignon.jpg",
+          "group": "vlees"
+        },
+        {
+          "name_nl": "Zeebaarsfilet",
+          "name_en": "Sea bass fillet",
+          "description_nl": "Gebakken zeebaarsfilet met geroosterde groenten en aardappeltjes uit de oven.",
+          "description_en": "Pan-fried sea bass fillet with roasted vegetables and oven-baked potatoes.",
+          "price": "€ 24,50",
+          "image": "zeebaarsfilet.jpg",
+          "group": "vis"
+        }
+      ]
+    }
+  ]
+}
+
+
